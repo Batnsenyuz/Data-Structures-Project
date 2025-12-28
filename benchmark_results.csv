@@ -1,0 +1,106 @@
+Algorithm,DataType,ArraySize,AvgTime(ms),AvgComparisons,AvgSwaps
+Selection Sort,Random,1000,4,499500,989
+Selection Sort,Sorted,1000,0,499500,0
+Selection Sort,Reverse,1000,0,499500,500
+Selection Sort,Nearly Sorted,1000,0,499500,100
+Selection Sort,Duplicates,1000,0,499500,953
+Insertion Sort,Random,1000,5,242510,242513
+Insertion Sort,Sorted,1000,0,999,999
+Insertion Sort,Reverse,1000,2,499500,500499
+Insertion Sort,Nearly Sorted,1000,0,59603,59603
+Insertion Sort,Duplicates,1000,0,239778,239781
+Shell Sort (SHELL sequence),Random,1000,0,14486,14972
+Shell Sort (SHELL sequence),Sorted,1000,0,8006,8006
+Shell Sort (SHELL sequence),Reverse,1000,0,11716,12706
+Shell Sort (SHELL sequence),Nearly Sorted,1000,0,12732,12846
+Shell Sort (SHELL sequence),Duplicates,1000,0,11288,11734
+Shell Sort (KNUTH sequence),Random,1000,1,246968,246971
+Shell Sort (KNUTH sequence),Sorted,1000,0,5457,5457
+Shell Sort (KNUTH sequence),Reverse,1000,4,503958,504957
+Shell Sort (KNUTH sequence),Nearly Sorted,1000,0,64061,64061
+Shell Sort (KNUTH sequence),Duplicates,1000,0,244236,244239
+Merge Sort,Random,1000,0,8709,19332
+Merge Sort,Sorted,1000,0,5044,15020
+Merge Sort,Reverse,1000,0,4932,19952
+Merge Sort,Nearly Sorted,1000,0,7972,18183
+Merge Sort,Duplicates,1000,0,8634,19163
+Quick Sort (Random Pivot),Random,1000,0,11371,5412
+Quick Sort (Random Pivot),Sorted,1000,0,11085,995
+Quick Sort (Random Pivot),Reverse,1000,0,10747,4034
+Quick Sort (Random Pivot),Nearly Sorted,1000,0,11057,4618
+Quick Sort (Random Pivot),Duplicates,1000,0,31296,3545
+3-Way Quick Sort,Random,1000,0,10427,7456
+3-Way Quick Sort,Sorted,1000,0,12031,6707
+3-Way Quick Sort,Reverse,1000,0,11543,6405
+3-Way Quick Sort,Nearly Sorted,1000,0,11721,6146
+3-Way Quick Sort,Duplicates,1000,0,4319,3286
+Selection Sort,Random,5000,15,12497500,4991
+Selection Sort,Sorted,5000,14,12497500,0
+Selection Sort,Reverse,5000,14,12497500,2500
+Selection Sort,Nearly Sorted,5000,14,12497500,500
+Selection Sort,Duplicates,5000,14,12497500,4678
+Insertion Sort,Random,5000,11,6395595,6395605
+Insertion Sort,Sorted,5000,0,4999,4999
+Insertion Sort,Reverse,5000,20,12497500,12502499
+Insertion Sort,Nearly Sorted,5000,2,1403033,1403033
+Insertion Sort,Duplicates,5000,10,5793608,5793612
+Shell Sort (SHELL sequence),Random,5000,0,110389,113044
+Shell Sort (SHELL sequence),Sorted,5000,0,55005,55005
+Shell Sort (SHELL sequence),Reverse,5000,0,78798,83785
+Shell Sort (SHELL sequence),Nearly Sorted,5000,0,99083,99689
+Shell Sort (SHELL sequence),Duplicates,5000,0,75273,77458
+Shell Sort (KNUTH sequence),Random,5000,14,6425680,6425690
+Shell Sort (KNUTH sequence),Sorted,5000,0,35084,35084
+Shell Sort (KNUTH sequence),Reverse,5000,26,12527585,12532584
+Shell Sort (KNUTH sequence),Nearly Sorted,5000,3,1433118,1433118
+Shell Sort (KNUTH sequence),Duplicates,5000,12,5823693,5823697
+Merge Sort,Random,5000,3,55236,120975
+Merge Sort,Sorted,5000,2,32004,93812
+Merge Sort,Reverse,5000,2,29804,123616
+Merge Sort,Nearly Sorted,5000,3,52590,115771
+Merge Sort,Duplicates,5000,3,54275,119483
+Quick Sort (Random Pivot),Random,5000,0,70517,33203
+Quick Sort (Random Pivot),Sorted,5000,0,70546,5020
+Quick Sort (Random Pivot),Reverse,5000,0,72513,27488
+Quick Sort (Random Pivot),Nearly Sorted,5000,0,69908,30288
+Quick Sort (Random Pivot),Duplicates,5000,1,805079,16776
+3-Way Quick Sort,Random,5000,4,70334,53699
+3-Way Quick Sort,Sorted,5000,2,74256,42017
+3-Way Quick Sort,Reverse,5000,0,74067,42615
+3-Way Quick Sort,Nearly Sorted,5000,0,73929,43066
+3-Way Quick Sort,Duplicates,5000,0,21290,16261
+Selection Sort,Random,10000,59,49995000,9991
+Selection Sort,Sorted,10000,56,49995000,0
+Selection Sort,Reverse,10000,55,49995000,5000
+Selection Sort,Nearly Sorted,10000,55,49995000,1000
+Selection Sort,Duplicates,10000,55,49995000,9443
+Insertion Sort,Random,10000,45,25063106,25063115
+Insertion Sort,Sorted,10000,0,9999,9999
+Insertion Sort,Reverse,10000,87,49995000,50004999
+Insertion Sort,Nearly Sorted,10000,10,5690475,5690479
+Insertion Sort,Duplicates,10000,40,23491846,23491850
+Shell Sort (SHELL sequence),Random,10000,1,261430,266490
+Shell Sort (SHELL sequence),Sorted,10000,0,120005,120005
+Shell Sort (SHELL sequence),Reverse,10000,0,172578,182565
+Shell Sort (SHELL sequence),Nearly Sorted,10000,1,231658,232817
+Shell Sort (SHELL sequence),Duplicates,10000,0,165690,170065
+Shell Sort (KNUTH sequence),Random,10000,56,25128350,25128359
+Shell Sort (KNUTH sequence),Sorted,10000,0,75243,75243
+Shell Sort (KNUTH sequence),Reverse,10000,108,50060244,50070243
+Shell Sort (KNUTH sequence),Nearly Sorted,10000,13,5755719,5755723
+Shell Sort (KNUTH sequence),Duplicates,10000,49,23557090,23557094
+Merge Sort,Random,10000,4,120493,261823
+Merge Sort,Sorted,10000,0,69008,202624
+Merge Sort,Reverse,10000,0,64608,267232
+Merge Sort,Nearly Sorted,10000,0,115497,252050
+Merge Sort,Duplicates,10000,1,118752,258980
+Quick Sort (Random Pivot),Random,10000,1,152089,74004
+Quick Sort (Random Pivot),Sorted,10000,0,156044,10009
+Quick Sort (Random Pivot),Reverse,10000,0,156048,62512
+Quick Sort (Random Pivot),Nearly Sorted,10000,0,157981,64701
+Quick Sort (Random Pivot),Duplicates,10000,3,2988707,35515
+3-Way Quick Sort,Random,10000,1,156813,120359
+3-Way Quick Sort,Sorted,10000,0,162062,85705
+3-Way Quick Sort,Reverse,10000,0,159161,86284
+3-Way Quick Sort,Nearly Sorted,10000,0,161914,88153
+3-Way Quick Sort,Duplicates,10000,0,41094,31057
